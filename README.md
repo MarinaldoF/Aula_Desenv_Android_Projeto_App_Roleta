@@ -1,7 +1,7 @@
 # App Roleta
 
-#Introdução
 
+Introdução
 Aplicativo em Kotlin.
 ---
 Feito uma tela para calcular um número randomico
