@@ -1,7 +1,13 @@
 # App Roleta
+### Professor: Daniel Akira
 
-
-Introdução
-Aplicativo em Kotlin.
 ---
-Feito uma tela para calcular um número randomico
+
+Atividade feita em kotlin
+
+-----
+
+Feito uma tela para calcular um número aleátorio
+
+---
+
