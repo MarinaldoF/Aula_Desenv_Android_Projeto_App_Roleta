@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ProjetoRoleta</string>
+    <string name="app_name">Roleta da Sorte</string>
+    <string name="main_title">Escolha um número de 0 a 10</string>
+    <string name="hint_number">Escreva aqui!</string>
+    <string name="range_error">Digite um valor de 0 até 10</string>
+    <string name="erro">Escreva um valor!</string>
+    <string name="sorteado">Você Acertou, Parabéns</string>
+    <string name="nao_sorteado">Você errou, tente novamente</string>
+    <string name="main_btn_run">Rodar</string>
 </resources>

@@ -6,46 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     //criado um txt para informar o usuário escolher um número
+
+    //botão para o usuário clicar
+
+    //txt para informar o usuário qual número foi sorteado
+
     <TextView
-        android:id="@+id/txt_enunciado"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Escolha um número de 0 a 1:"
+        android:text="Escolha um número de 0 a 10:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
-        //botão para o usuário clicar
+        app:layout_constraintVertical_bias="0.224" />
+
     <Button
         android:id="@+id/btn_rodar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="168dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="163dp"
         android:text="RODAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero" />
+
+    <TextView
+        android:id="@+id/num_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="156dp"
+        android:text="Resposta:"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rodar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:hint="Digite um numero"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_rodar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
-        //txt para informar o usuário qual número foi sorteado
-    <TextView
-        android:id="@+id/txt_sorteado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="163dp"
-        android:layout_marginTop="39dp"
-        android:layout_marginEnd="190dp"
-        android:layout_marginBottom="236dp"
-        android:text="Número sorteado é:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.298"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
