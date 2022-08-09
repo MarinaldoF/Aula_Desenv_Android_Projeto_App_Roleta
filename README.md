@@ -7,7 +7,7 @@ Atividade feita em kotlin
 
 -----
 
-Feito uma tela para calcular um número aleátorio
+Ativida de desenvolvimento android, foi gerado um númrero aleátorio e pedido para o usuário digitar um número, ambos foram comparados e se caso fossem igual informa que o usuário ganhou e se caso for diferente usuário perde.
 
 ---
 
